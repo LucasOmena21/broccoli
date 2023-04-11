@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+  margin-right: 0;
+}
+
+nav h2 {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 10px;
+  flex-grow: 1;
+  text-align: center;
+  margin-right: auto;
+}
+
+
+
+.header-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: -800px;
+  
+}
+
+.header-links a {
+  color: #fff;
+  margin-left: 15px;
+  
+}
+
+.contact-button {
+  background-color: #EB2E4A;
+  color: #fff;
+  border-radius: 7.5px;
+  padding: 10px 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+
+

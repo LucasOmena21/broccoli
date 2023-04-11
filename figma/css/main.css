@@ -1,0 +1,268 @@
+.container-body {
+  background-color: #07041a;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/* Imagem da Raposa */
+
+.bg-img {
+  width: 100%;
+  height: 100%;
+  
+  
+}
+
+/* Parte do logo do Whatsapp */
+
+.whatsapp {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  
+}
+
+.wpp-img {
+  width: 60%;
+  z-index: 1;
+}
+
+
+/* Textos no meio da imagem da raposa */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.companyId {
+  color: #D12941;
+}
+
+
+.container-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%, -50%);
+  width: 90%;
+  max-width: 800px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.upper-text {
+  margin-bottom: 4rem;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.left-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  color: #FFF;
+}
+
+.left-text p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #FFF;
+}
+
+
+.right-text {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: -60px;
+  color: #FFF;
+  text-align: right;
+  align-self: flex-end;
+  position: absolute;
+  border: 4px solid #EB2E4A;
+  border-radius: 7.5px;
+  padding: 0.5rem;
+  right: -60%;
+  top: 60%;
+  
+  
+  
+}
+
+
+
+/* Parte do FORM */
+
+.fa-envelope {
+  position: relative;
+  z-index: 2;
+}
+
+
+.contact-form {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  position: relative;
+}
+
+.contact-form::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 19%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #D12941; /* cor do círculo */
+  z-index: 1;
+}
+
+.contact-form::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 19%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #D12941; /* cor da faixa */
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.contact-form h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #07041A;
+  margin-bottom: 10px;
+}
+
+.contact-form img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form button {
+  background-color: #D12941;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #B52038;
+}
+
+.contact-form textarea::placeholder {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+
+/* Parte do diferenciais */
+
+.container-diferencials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+.diferencial {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.diferencial h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.diferencial p {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.diferencials h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  order: -1;
+}
+
+
+
+/* Parte do Sobre Nós */
+
+.container {
+  background-color: #0C0824;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container img {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.container h1, .container p {
+  color: #fff;
+  width: 50%;
+  margin: 0;
+}
