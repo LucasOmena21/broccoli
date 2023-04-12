@@ -1,4 +1,4 @@
-.container-body {
+.container-body { 
   background-color: #07041a;
   max-width: 1440px;
   display: flex;
@@ -15,39 +15,8 @@
   
 }
 
-/* Parte do logo do Whatsapp */
-
-.whatsapp {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin: 20px;
-  
-}
-
-.wpp-img {
-  width: 60%;
-  z-index: 1;
-}
-
 
 /* Textos no meio da imagem da raposa */
-.image-container {
-  position: relative;
-  width: 100%;
-  height: 500px;
-}
-
-.image-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.companyId {
-  color: #D12941;
-}
-
 
 .container-text {
   position: absolute;
@@ -58,7 +27,6 @@
   max-width: 800px;
   height: auto;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   z-index: 1;
   padding: 2rem;
@@ -66,46 +34,125 @@
 }
 
 .upper-text {
-  margin-bottom: 4rem;
+  margin-bottom: 10px;
   color: #FFFFFF;
   font-weight: bold;
+  font-size: 15px;
+  margin-left: 95px;
+  
+  
 }
 
 .left-text {
   display: flex;
-  flex-direction: column;
   justify-content: left;
   text-align: left;
   color: #FFF;
-}
-
-.left-text p {
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: bold;
-  margin-top: 1rem;
-  color: #FFF;
+  margin-left: 95px;
+  
+  
+  
 }
 
+
+.companyId {
+  color: #fa0707;
+}
 
 .right-text {
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: bold;
   margin-top: -60px;
   color: #FFF;
   text-align: right;
   align-self: flex-end;
   position: absolute;
-  border: 4px solid #EB2E4A;
+  border: 2.5px solid #ff0000;
   border-radius: 7.5px;
   padding: 0.5rem;
   right: -60%;
   top: 60%;
+  margin-right: 250px;
+  
+  
   
   
   
 }
 
+/* Responsividade parte da Raposa + Texto */
 
+
+@media screen and (min-width: 320px) and (max-width: 1033) {
+
+  .container-text {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 900px;
+ 
+  }
+  
+  .upper-text {
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 900px;
+    margin-left: 200px;
+
+    
+    
+  }
+  
+  .left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    color: #FFF;
+    font-size: 900px;
+    font-weight: bold;
+    margin-left: 95px;
+    
+    
+    
+  }
+  
+  
+  .companyId {
+    color: #fa0707;
+  }
+  
+  .right-text {
+    font-size: 2900px;
+    font-weight: bold;
+    margin-top: -60px;
+    color: #FFF;
+    text-align: right;
+    align-self: flex-end;
+    position: absolute;
+    border: 2.5px solid #ff0000;
+    border-radius: 7.5px;
+    padding: 0.5rem;
+    right: -60%;
+    top: 60%;
+    margin-right: 250px;
+    
+    
+    
+    
+    
+  }
+
+
+
+
+
+
+}
 
 /* Parte do FORM */
 
@@ -206,7 +253,7 @@
 
 .container-diferencials {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -265,4 +312,19 @@
   color: #fff;
   width: 50%;
   margin: 0;
+}
+
+/* Parte do logo do Whatsapp */
+
+.whatsapp {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  
+}
+
+.wpp-img {
+  width: 60%;
+  z-index: 1;
 }
