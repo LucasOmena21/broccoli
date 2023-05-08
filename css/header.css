@@ -1,0 +1,199 @@
+header {
+  display: flex;
+  padding: 5px;
+  background-color: #07041a;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+  margin-right: 20px;
+}
+
+/* Sobre Nós - #VemSerKitsune */
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.about-us {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.dot {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.portfolio {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.kitsune {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+/* Links Sociais */
+
+.header-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  
+}
+
+.header-links a:hover {
+  color: #d12941;
+  }
+
+a {
+  color: #fff;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+
+
+/* Botão do Contato */
+
+.contact-button {
+  background-color: #EB2E4A;
+  color: #fff;
+  border-radius: 7.5px;
+  padding: 10px 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: all 0.5s ease-in-out;
+  
+}
+
+.contact-button:hover {
+  background: linear-gradient(to bottom, #EB2E4A, #FF6B6B);
+  border: 2px solid #EB2E4A;
+  transition: all 1s ease-in-out;
+  
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 653px) {
+  header {
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .container-menu{
+    flex-direction: column;
+  }
+
+
+  .header-links {
+    flex-direction: column;
+    
+  }
+
+  a:hover{
+    color: #D12941;
+    
+  
+  }
+  
+  h2 {
+    font-size: 20px;
+    
+  
+  }
+  
+  .contact-button {
+    
+    font-size: 12px;
+    padding: 5px 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+ 
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+}
+
+@media screen and (max-width: 421px) {
+  header {
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .menu-container{
+    flex-direction: column;
+  }
+
+
+  .header-links {
+    flex-direction: column;
+    
+  }
+
+  a:hover{
+    color: #D12941;
+    
+  
+  }
+  
+  h2 {
+    font-size: 20px;
+    
+  
+  }
+  
+  .contact-button {
+    
+    font-size: 12px;
+    padding: 5px 5px;
+    margin-left: 5px;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+ 
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+}
+
+

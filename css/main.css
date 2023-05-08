@@ -1,0 +1,643 @@
+.container-body {
+  background-color: #07041a;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/* Imagem da Raposa */
+
+.bg-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Textos no meio da imagem da raposa */
+
+.container-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%, -50%);
+  width: 90%;
+  max-width: 800px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.upper-text {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 0px;
+  display: block;
+}
+
+.left-text {
+  display: flex;
+  text-align: left;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: -180px;
+  display: block;
+}
+
+.companyId {
+  color: #fa0707;
+}
+
+.right-text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -60px;
+  color: #fff;
+  text-align: right;
+  align-self: flex-end;
+  position: absolute;
+  border: 2.5px solid #ff0000;
+  border-radius: 7.5px;
+  padding: 10px;
+  right: -60%;
+  top: 60%;
+  margin-right: 250px;
+}
+
+/* Responsividade parte da Raposa + Texto */
+
+@media screen and (max-width: 980px) {
+  .container-text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-text {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 200px;
+  }
+
+  .upper-text {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 200px;
+  }
+
+  .right-text {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 350px;
+    margin-bottom: 550px;
+  }
+}
+
+@media screen and (max-width: 865px) {
+  .container-text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-text {
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .upper-text {
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .right-text {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 350px;
+    margin-bottom: 450px;
+  }
+}
+
+@media screen and (max-width: 653px) {
+  .container-text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-text {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -400px;
+  }
+
+  .upper-text {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+
+  .right-text {
+    position: fixed;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 350px;
+    margin-bottom: 450px;
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .container-text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-text {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -70px;
+    margin-bottom: 60px;
+  }
+
+  .upper-text {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+
+  .right-text {
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 350px;
+    margin-bottom: 450px;
+    margin-top: -200px;
+    margin-right: 150px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container-text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-text {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -70px;
+    margin-bottom: 60px;
+    margin-right: 110px;
+  }
+
+  .upper-text {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+
+  .right-text {
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 350px;
+    margin-bottom: 450px;
+    margin-top: -200px;
+    margin-right: 80px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .container-text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-text {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -70px;
+    margin-bottom: 80px;
+    margin-right: 100px;
+  }
+
+  .upper-text {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+
+  .right-text {
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 350px;
+    margin-bottom: 450px;
+    margin-top: -200px;
+    margin-right: 65px;
+  }
+}
+
+@media screen and (max-width: 353px) {
+  .container-text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-text {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -70px;
+    margin-bottom: 80px;
+    margin-right: 87px;
+  }
+
+  .upper-text {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+
+  .right-text {
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 350px;
+    margin-bottom: 450px;
+    margin-top: -200px;
+    margin-right: 65px;
+  }
+}
+
+@media screen and (max-width: 336px) {
+  .container-text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-text {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -70px;
+    margin-bottom: 140px;
+    margin-right: 70px;
+  }
+
+  .upper-text {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+
+  .right-text {
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 350px;
+    margin-bottom: 450px;
+    margin-top: -200px;
+    margin-right: 65px;
+  }
+}
+
+/* Container que contém FORM+DIFERENCIALS */
+
+.container-all {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 3;
+}
+
+/* Parte do FORM */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 100%;
+  max-width: 400px;
+  margin-right: auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.fa-solid.fa-envelope {
+  font-size: 15px;
+  margin-bottom: 0;
+  color: #ffffff;
+  opacity: 0.5;
+  display: inline-block;
+}
+
+.circle {
+  background-color: #d12941;
+  padding: 5px; 
+  border-radius: 60%;
+  margin-bottom: 20px; 
+  border-left: 8px solid;
+  border-right: 8px solid;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+button {
+  background-color: #d12941;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #7e0b0b;
+}
+
+/* Parte do diferenciais  */
+
+.container-diferencials {
+  text-align: center;
+  color: #fff;
+  margin-right: 200px;
+}
+.diferencial-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+@media screen and (max-width: 450px) {
+  .diferencial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.diferencial {
+  background-color: #07041a;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.diferencial:hover {
+  background: linear-gradient(116.94deg, #eb2e4a 40.96%, #82165d 87.89%);
+}
+
+.title-diferencial {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.text-diferencial {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 775px) {
+  .container-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+  }
+
+  .diferencial {
+    display: flex;
+    flex-direction: column;
+    background-color: #07041a;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .title-diferenciais {
+    margin-top: 80px;
+  }
+
+  .dif-image {
+    margin-left: 95px;
+    width: 60px;
+    height: 60px;
+  }
+  .diferencial:hover {
+    background: linear-gradient(116.94deg, #eb2e4a 40.96%, #82165d 87.89%);
+  }
+}
+
+@media screen and (max-width: 726px) {
+  .dif-image {
+    margin-left: 65px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 608px) {
+  .dif-image {
+    margin-left: 45px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .container-diferencials {
+    margin-right: 50px;
+  }
+
+  .dif-image {
+    margin-left: 65px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 442px) {
+  .container-diferencials {
+    margin-right: 50px;
+  }
+
+  .dif-image {
+    margin-left: 125px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 419px) {
+  .container-diferencials {
+    margin-right: 20px;
+  }
+
+  .dif-image {
+    margin-left: 125px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .container-diferencials {
+    margin-right: 5px;
+  }
+
+  .dif-image {
+    margin-left: 115px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 362px) {
+  
+
+  .container-diferencials {
+    margin-right: 5px;
+  }
+
+  .dif-image {
+    margin-left: 115px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* Parte do Sobre Nós */
+
+
+/* Parte do logo do Whatsapp  */
+
+.whatsapp {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.wpp-img {
+  width: 60%;
+  z-index: 1;
+}
