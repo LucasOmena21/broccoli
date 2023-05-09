@@ -4,9 +4,33 @@
 
 .left-container{
   background-color: #D12941;
+  float: left;
+  width: 63%;
+  height: 150px;
 }
 
+.left-half{
+  font-weight: bold;
+  color: #FFF;
+}
 .right-container{
-  background-color: #a3da23;
+  background-color: #0C0824;
+  height: 150px;
+  float: right;
+  width: 37%;
+}
 
+.right-half {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
