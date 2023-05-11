@@ -1,0 +1,32 @@
+@media screen and (max-width: 922px){
+
+    .whatsapp {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 20px;
+      }
+      
+      .wpp-img {
+        width: 60%;
+        z-index: 1;
+      }
+      
+    }
+
+    @media screen and (max-width: 512px){
+
+        .whatsapp {
+            position: relative;
+            bottom: 0;
+            right: 0;
+            margin: 20px;
+          }
+          
+          .wpp-img {
+            width: 30%;
+            z-index: 1;
+          }
+          
+        }
+            
