@@ -61,9 +61,15 @@ header {
   
 }
 
-.header-links a:hover {
-  color: #d12941;
-  }
+.header-links a img {
+  transition: filter 0.5s ease-in-out;
+}
+
+.header-links a:hover img {
+  filter: invert(60%);
+  
+}
+
 
 a {
   color: #fff;

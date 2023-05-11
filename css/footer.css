@@ -54,3 +54,11 @@
   margin-left: 170px;
   }
 
+  .footer-links img {
+    transition: filter 0.5s ease-in-out;
+  }
+  
+  .footer-links img:hover {
+    filter: invert(60%);
+  }
+  
