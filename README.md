@@ -1,0 +1,1 @@
+Reprodução aproximada do projeto contido aqui -> https://www.figma.com/file/FBYDdWSkyEvox3XeqFUyaZ/Untitled?type=design&node-id=3-10&t=u7xt2TrPYDGbcccw-0 utilizando apenas HTML e CSS(a parte "Nossos Projetos" deverá conter JavaScript, o que não foi o próposito desse projeto).
