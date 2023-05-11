@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/about-us.css">
     <link rel="stylesheet" href="./css/resp-about-us.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/resp-footer.css">
     
     
     
@@ -35,11 +36,11 @@
 
 
   <nav class="menu-container">
-    <h2 class="about-us">Sobre Nós</h2>
+   <a href="#sobre-nos"> <h2 class="about-us">Sobre Nós</h2> </a>
     <h2 class="dot">•</h2>
     <h2 class="portfolio">Portfólio</h2>
     <h2 class="dot">•</h2>
-    <h2 class="kitsune">#VemSerKitsune</h2>
+    <a href="#trabalhe-conosco"><h2 class="kitsune">#VemSerKitsune</h2></a>
   </nav>
   
   <div class="header-links">
@@ -53,7 +54,7 @@
       <i class="fab fa-instagram-square"></i>
     </a>
     
-    <h1 class="contact-button">Contato</h1>
+    <a href="#contatos"><h1 class="contact-button">Contato</h1></a>
   </div>
   
   
@@ -80,16 +81,22 @@
           <h2 class="right-text">VAMOS NOS COMUNICAR</h2>
         </section>
         
-
+        <section id="trabalhe-conosco"></section>
         <div class="container-all">
         <section class="contact-form">
           <h2 class="contact-us">Converse conosco<br> sobre seu projeto</h2>
+
+          <div class="formcircle-container">
+            <div class="left-side-circle"></div>
           <div class="circle">
-          <i class="fa-solid fa-envelope"></i>
+            <img class="envelope" src="./img/envelope.svg" alt="Envelope">
           </div>
-        
-          <form>
+                <div class="right-side-circle"></div>
+    </div> 
+
+          <form> 
             
+            <br>
             <input type="text" placeholder="Nome Completo">
             <br>
             <input type="email" placeholder="Email">
@@ -156,7 +163,7 @@
 
 
       <div class="notebook-container">
-        
+        <section id="sobre-nos"></section>
         <p class="about-notebook">Sobre nós</p>
         <p class="kitsune-notebook">A Kitsune Software é uma fábrica de software<br> especializada no desenvolvimento de aplicações e<br> sistemas digitais, fundada por X, (cargo dele aqui). Nosso<br> objetivo é produzir código de qualidade em escala, de<br> forma rápida e eficiente. Nos orgulhamos de nossa<br> abordagem colaborativa para garantir que o resultado<br> final atenda as suas expectativas.</p>
         <div class="circle-notebook"></div>
@@ -175,43 +182,46 @@
 
     
 
- <footer class="endpage">
-  <div class="left-container">
-    <div class="left-half">
-      <div class="endpage-message">V A M O S?</div>
-       <div class="endpage-description">Te ajudando a<br> alavancar sua empresa.</div>
+    <div class="endpage">
+      <div class="left-half">
+        <div class="endpage-message">V A M O S?</div>
+         <div class="endpage-description">Te ajudando a<br> alavancar sua empresa.</div>
+     </div>
+      <div class="right-half">
+    <nav>
+      <ul>
+        <li>Links</li>
+        <br>
+        <li><a href="#sobre-nos">Sobre Nós</a></li>
+        <br>
+        <li>Portfólio</li>
+        <br>
+        <li><a href="#trabalhe-conosco">Trabalhe conosco</a></li>
+        <br>
+      </ul>
+    </nav>
+    <div class="column">
+     <div class="contact-info">
+      <section id="contatos"></section>
+      <p class="contact-footer">Precisando de nós?</p>
+      <br>
+      <p class="email-footer">email@hotmail.com</p>
+      <br>
+      <a href="https://www.twitterdaempresa.com" target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedindaempresa.com" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagramdaempresa.com" target="_blank">
+          <i class="fa-brands fa-square-instagram"></i>
+        </a>
+        
+      <p class="copyright-footer"><br>&copy; 2023 Made by Kitsune Software</p>
     </div>
-   </div>
   </div>
-</div>
-  <div class="right-container">
-    <div class="right-half">
-  <nav>
-    <ul>
-      <li><a href="#">Links</a></li>
-      <li><a href="#">Sobre Nós</a></li>
-      <li><a href="#">Portfólio</a></li>
-      <li><a href="#">Trabalhe conosco</a></li>
-    </ul>
-  </nav>
-  <div class="column">
-   <div class="contact-info">
-    <p class="contact-footer">Precisando de nós?</p>
-    <p class="email-footer">email@hotmail.com</p>
-    <a href="https://www.twitterdaempresa.com" target="_blank">
-        <i class="fa-brands fa-twitter"></i>
-      </a>
-      <a href="https://www.linkedindaempresa.com" target="_blank">
-        <i class="fa-brands fa-linkedin"></i>
-      </a>
-      <a href="https://www.instagramdaempresa.com" target="_blank">
-        <i class="fa-brands fa-square-instagram"></i>
-      </a>
-    <p class="copyright-footer">&copy; 2023 Made by Kitsune Software</p>
   </div>
-</div>
-</footer> 
-
+  </footer> 
 <div class="whatsapp">
   <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" target="_blank">
     <img src="https://imgur.com/V347Epi.jpg" class="wpp-img" />

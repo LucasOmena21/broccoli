@@ -4,6 +4,7 @@ header {
   background-color: #07041a;
 }
 
+
 .logo {
   width: 75px;
   height: 75px;
@@ -21,10 +22,11 @@ header {
 .about-us {
   font-size: 15px;
   color: #fff;
-  margin-top: 10px;
+  margin-top: -5px;
   text-align: center;
   margin-right: 10px;
 }
+
 
 .dot {
   font-size: 15px;
@@ -45,7 +47,7 @@ header {
 .kitsune {
   font-size: 15px;
   color: #fff;
-  margin-top: 10px;
+  margin-top: -5px;
   text-align: center;
   margin-right: 10px;
 }

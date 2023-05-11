@@ -412,22 +412,46 @@
   text-align: center;
 }
 
-.fa-solid.fa-envelope {
-  font-size: 15px;
-  margin-bottom: 0;
+.envelope {
+  width: 85%;
   color: #ffffff;
   opacity: 0.5;
   display: inline-block;
+  border-radius: 50%
+
 }
 
-.circle {
-  background-color: #d12941;
-  padding: 5px; 
-  border-radius: 60%;
-  margin-bottom: 20px; 
-  border-left: 8px solid;
-  border-right: 8px solid;
+.formcircle-container{
+  display: flex; 
+  flex-direction: row;
 }
+
+.left-side-circle{
+  background: radial-gradient(#d12941, #050505);
+  padding-left: 50px;
+  height: 5px;
+  margin-top: 20px;
+  border-radius: 10%;
+}
+
+
+.circle {
+  background: radial-gradient(circle at center, #d12941, #050505);
+  padding: 10px;
+  border-radius: 70%;
+  
+ 
+}
+
+
+.right-side-circle{
+  background: radial-gradient(#d12941, #050505);
+  padding-right: 50px;
+  height: 5px;
+  margin-top: 20px;
+  border-radius: 10%;
+}
+
 
 form {
   display: flex;
